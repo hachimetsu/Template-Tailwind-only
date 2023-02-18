@@ -1,0 +1,1 @@
+// handle all js file from JS folder
