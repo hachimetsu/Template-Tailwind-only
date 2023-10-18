@@ -2,22 +2,24 @@
   "name": "template-tailwind-only",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "scripts": {
-    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./app/css/src/input.css -o ./app/css/dist/output.css --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hachimetsu/Template-Tailwind-only.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/hachimetsu/Template-Tailwind-only/issues"
   },
   "homepage": "https://github.com/hachimetsu/Template-Tailwind-only#readme",
-  "dependencies": {
-    "tailwindcss": "^3.2.4"
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
   }
 }
